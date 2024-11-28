@@ -2,11 +2,10 @@
 print("*** PROGRAMA QUE DETERMINA EL PRECIO DE VENTA POR CADA KG DE HUEVO ***")
 
 # PROMPTING THE USER AND INITIALIZING VARIABLES
-Gallinas = int(print("Cuántas gallinas hay en la granja: "))
+Gallinas = int(input("Cuántas gallinas hay en la granja: "))
 
 # INITIALIZING AND DECLARING VARIABLES
 i=0
-Promedio = 0
 Calidad = 0
 
 # RUNNING THE LOOP AND SAVING INFO
@@ -14,9 +13,9 @@ while i < Gallinas:
   i += 1
 
   # PROMTING THE USER
-  Peso = float(print("Ingresar el peso de la gallina:"))
-  Altura = float(print("Ingresar la altura de la gallina:"))
-  Huevos = int(print("Ingresar el número de huevos que pone la gallina:"))
+  Peso = float(input("Ingresar el peso de la gallina:"))
+  Altura = float(input("Ingresar la altura de la gallina:"))
+  Huevos = int(input("Ingresar el número de huevos que pone la gallina:"))
 
   # CALCULATING THE CHICKEN QUALITY  
   Calidad = Calidad + (Peso * Altura) / Huevos
