@@ -9,7 +9,8 @@ while j < 42:
     i += 1 # WOMEN COUNTER
     j += 1  # MEN COUNTER
     
-    # DISPLAY COUNTERS STATUS
+    # DISPLAYING COUNTERS STATUS
     print(F"La mujer número {i} bailó con {j} hombres.")
 
+# DISPLAYING RESULTS
 print(f"Los asistentes a la fiesta son:\na. Hombres: {j}.\nb. Mujeres: {i}.\n¡El programa ha terminado!")
