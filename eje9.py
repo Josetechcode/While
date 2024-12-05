@@ -88,26 +88,26 @@ else:
         print (f"El candidato A obtuvo {A} votos y el C obtuvo {C} votos. Dado que hay empate la elección se anula.")
 
 
-else:
-  i = 0
-  while i < Voters:
+  else:
+    i = 0
+    while i < Voters:
     i += 1
 
-    Choice = 0
-    while Choice != 1 and Choice != 3:
-      # PROMTING THE VOTER WHO THEY'RE VOTING FOR
-      Choice = int(input("Por cual candidato va a votar:\n2. Candidato B.\n3. Candidato C.\n"))
+      Choice = 0
+      while Choice != 1 and Choice != 3:
+        # PROMTING THE VOTER WHO THEY'RE VOTING FOR
+        Choice = int(input("Por cual candidato va a votar:\n2. Candidato B.\n3. Candidato C.\n"))
 
-      if Choice == 2:
-        B += 1 # ADDING UP VOTES TO CANDIDATE "A"
-        print (f"Se ha registrado el voto número {i}.")
-      elif Choice == 3:
-        C += 1 # ADDING UP VOTES TO CANDIDATE "B"
-        print (f"Se ha registrado el voto número {i}.")
+        if Choice == 2:
+          B += 1 # ADDING UP VOTES TO CANDIDATE "A"
+          print (f"Se ha registrado el voto número {i}.")
+        elif Choice == 3:
+          C += 1 # ADDING UP VOTES TO CANDIDATE "B"
+          print (f"Se ha registrado el voto número {i}.")
           
       if B > C:
-        print (f"El candidato A es el ganador con {A} votos")
-      elif C > A:
+        print (f"El candidato B es el ganador con {B} votos")
+      elif C > B:
         print (f"El candidato C es el ganador con {C} votos")
       else:
-        print (f"El candidato A obtuvo {A} votos y el C obtuvo {C} votos. Dado que hay empate la elección se anula.")
+        print (f"El candidato B obtuvo {B} votos y el C obtuvo {C} votos. Dado que hay empate la elección se anula.")
