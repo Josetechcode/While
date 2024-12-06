@@ -9,7 +9,7 @@ Passengers = 0
 
 Vehiculos = int(input("Definir tamaño de la muestra (número de vehículos): "))
 
-print(f"Se va a dar inicio al estudio. De acuerdo a lo anterios, se va a tomar una muestra de {Vehiculos} vehiculo(s).")
+print(f"Se va a dar inicio al estudio. De acuerdo a lo anterior, se va a tomar una muestra de {Vehiculos} vehiculo(s).")
 
 i = 0
 while i < Vehiculos:
@@ -34,4 +34,4 @@ while i < Vehiculos:
 
 Total = Tur + Cam + Aut + Mot
 
-print("Cantidad de vehículos tipo turismo: ",Tur,"Correspondiete al",(Tur/Total)*100,"de la muestra\nCantidad de vehículos tipo camión: ",Cam,"Correspondiete al",(Cam/Total)*100,"de la muestra\nCantidad de vehículos tipo automovil: ",Aut,"Correspondiete al",(Aut/Total)*100,"de la muestra\nCantidad de vehículos tipo motocicleta: ",Mot,"Correspondiete al",(Mot/Total)*100,"de la muestra\nCantidad de turistas: ",Passengers,)
+print("Cantidad de vehículos tipo turismo: ",Tur,"Correspondiete al",(Tur/Total)*100," porciento de la muestra\nCantidad de vehículos tipo camión: ",Cam,"Correspondiete al",(Cam/Total)*100,"porciento de la muestra\nCantidad de vehículos tipo automovil: ",Aut,"Correspondiete al",(Aut/Total)*100,"porciento de la muestra\nCantidad de vehículos tipo motocicleta: ",Mot,"Correspondiete al",(Mot/Total)*100,"porciento de la muestra\nCantidad de turistas: ",Passengers,)
