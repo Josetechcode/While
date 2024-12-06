@@ -91,7 +91,7 @@ else:
   else:
     i = 0
     while i < Voters:
-    i += 1
+      i += 1
 
       Choice = 0
       while Choice != 1 and Choice != 3:
